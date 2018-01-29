@@ -1,8 +1,6 @@
 class School
   
-  def initialize
-    @roster = {}
-  end
+  @roster = {}
   
   def add_student(name,grade)
     @roster[grade] ||= []
