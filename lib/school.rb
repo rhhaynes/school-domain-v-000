@@ -5,7 +5,7 @@ class School
   end
   
   def add_student(name,grade)
-    @roster[9] << name
+    @roster["9"] << name
   end
   
 end
