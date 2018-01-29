@@ -5,7 +5,7 @@ class School
   end
   
   def add_student(name,grade)
-    @roster[grade] = [] if !(@roster.key? grade)
+    @roster[grade] ||= []
     @roster[grade] << name
   end
   
@@ -14,7 +14,7 @@ class School
   end
   
   def sort
-    
+    @roster.each.map{|k,v| v.}
   end
   
 end
