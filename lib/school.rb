@@ -14,7 +14,7 @@ class School
   end
   
   def sort
-    @roster.each.map{|k,v| v.}
+    @roster.each.sort
   end
   
 end
