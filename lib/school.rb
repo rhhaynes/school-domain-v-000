@@ -14,7 +14,6 @@ class School
   end
   
   def sort
-    @roster.each.sort
   end
   
 end
